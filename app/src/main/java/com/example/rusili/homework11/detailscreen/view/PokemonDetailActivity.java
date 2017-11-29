@@ -14,7 +14,7 @@ public class PokemonDetailActivity extends AppCompatActivity{
 	@Override
 	public void onCreate (@Nullable Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView();
+		setContentView(R.layout.detail_activity_layout);
 
 		initialize();
 	}
