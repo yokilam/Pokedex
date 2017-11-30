@@ -16,19 +16,3 @@ public class Pokedex {
 
     //TODO: Create getters
 
-    public int getId(){
-        return id;
-    }
-
-    public Region getRegion(){
-        return region;
-    }
-
-    public VersionGroups[] getVersion_Groups(){
-        return version_groups;
-    }
-
-    public PokemonEntries[] getPokemon_Entries(){
-        return pokemon_entries;
-    }
-}
