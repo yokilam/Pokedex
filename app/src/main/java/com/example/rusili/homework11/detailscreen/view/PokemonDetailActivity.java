@@ -25,8 +25,6 @@ public class PokemonDetailActivity extends AppCompatActivity{
 		id = intent.getStringExtra("pokemonName");
 		TextView pokemonName= findViewById(R.id.detail_pokemon_name);
 		pokemonName.setText(id);
-
-
 		initialize();
 	}
 
