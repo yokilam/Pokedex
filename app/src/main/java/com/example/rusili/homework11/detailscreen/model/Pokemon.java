@@ -10,16 +10,19 @@ public class Pokemon {
 	private Types[] types;
 
 	//TODO: Create getters
-	public Stats[] getStats(){
+
+	public Stats[] getStats() {
 		return stats;
 	}
 
-	public Sprites sprites(){
+	public Sprites getSprites(){
 		return sprites;
 	}
 
-	public Types[] types(){
+	public Types[] getTypes(){
 		return types;
 	}
-
 }
+
+
+
