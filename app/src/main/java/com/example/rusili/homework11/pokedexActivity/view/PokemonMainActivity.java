@@ -16,7 +16,7 @@ public class PokemonMainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pokemon_main);
 
-        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new PokedexFragment()).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new PokedexFragment()).addToBackStack("pokedex").commit();
 
     }
 }
