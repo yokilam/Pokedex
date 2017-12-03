@@ -57,7 +57,5 @@ public class PokemonViewHolder extends RecyclerView.ViewHolder {
                 .load(stringBuilder.toString())
                 .into(sprite);
 
-
     }
-
 }
