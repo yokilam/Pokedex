@@ -4,8 +4,8 @@
     <modules>
 
       <module fileurl="file://$PROJECT_DIR$/Homework11-Base-Code.iml" filepath="$PROJECT_DIR$/Homework11-Base-Code.iml" />
+
       <module fileurl="file://$PROJECT_DIR$/.idea/Homework11-Base-Code.iml" filepath="$PROJECT_DIR$/.idea/Homework11-Base-Code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Homework11-Base-Code.iml" filepath="$PROJECT_DIR$/Homework11-Base-Code.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
