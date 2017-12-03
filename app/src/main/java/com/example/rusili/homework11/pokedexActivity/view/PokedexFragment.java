@@ -4,7 +4,9 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+
 import android.support.v7.widget.GridLayoutManager;
+
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -40,10 +42,12 @@ public class PokedexFragment extends Fragment {
         view = inflater.inflate(R.layout.pokedex_fragment_layout, container, false);
 
         recyclerView = view.findViewById(R.id.recycler_view);
+
         GridLayoutManager gridLayoutManager= new GridLayoutManager(getContext(), 3);
         //LinearLayoutManager linearLayoutManager= new LinearLayoutManager(getContext());
         getPokedexList();
         recyclerView.setLayoutManager(gridLayoutManager);
+
 
 
         //recyclerView.setLayoutManager(new LinearLayoutManager((getActivity()), LinearLayoutManager.VERTICAL, false));
@@ -60,7 +64,9 @@ public class PokedexFragment extends Fragment {
                 //Collections.addAll(pokemonList, pokedex.getPokemon_entries());
                 // TODO: show Pokemon
                 // Each pokemon is in the Pokemon_Species object.
-                for (int i = 0; i < 151; i++) {
+
+                for (int i = 0; i < 150; i++) {
+
                     //Log.d("pokemon", "" + pokedex.getPokemon_entries()[i].getPokemon_species().getName());
                     pokemonList.add(pokedex.getPokemon_entries()[i]);
                     Log.d("pokemon", "" + pokemonList.size());

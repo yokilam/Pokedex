@@ -1,5 +1,6 @@
 package com.example.rusili.homework11.detailscreen.view;
 
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -276,3 +277,4 @@ public class PokemonDetailActivity extends AppCompatActivity{
 
     }
 }
+

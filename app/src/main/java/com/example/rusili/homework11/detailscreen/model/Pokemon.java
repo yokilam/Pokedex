@@ -15,11 +15,12 @@ public class Pokemon {
 		return stats;
 	}
 
-	public Sprites getSprites() {
+	public Sprites getSprites(){
 		return sprites;
 	}
 
-	public Types[] getTypes() {
+	public Types[] getTypes(){
 		return types;
 	}
 }
+

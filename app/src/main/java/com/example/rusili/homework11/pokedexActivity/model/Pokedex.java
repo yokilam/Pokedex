@@ -16,6 +16,7 @@ public class Pokedex {
 
     //TODO: Create getters
 
+
     public int getId() {
         return id;
     }
@@ -32,3 +33,4 @@ public class Pokedex {
         return pokemon_entries;
     }
 }
+
